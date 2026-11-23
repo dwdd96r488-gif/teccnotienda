@@ -1,0 +1,126 @@
+
+/* CONFIGURACIÓN GENERAL */
+body {
+    background-color: #DFF3FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    background-color: #39FF14;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+/* TÍTULO */
+.h1 {
+    text-align: center;
+}
+
+/* CONTENEDOR DE PRODUCTOS */
+.caja2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CAJAS DE PRODUCTOS */
+.caja {
+    border: 4px solid #007BFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    padding: 15px;
+    transition: 0.3s;
+    background-color: white;
+}
+
+/* IMÁGENES */
+.caja img {
+    background-color: #39FF14;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid gray;
+    width: 150px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+}
+
+/* BOTONES */
+button {
+    background-color: #176b87;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C8102E;
+}
+
+/* CARRITO */
+.carrito {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #176b87;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.carrito ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* TÍTULOS */
+.h2 {
+    text-align: center;
+}
+
+/* MENÚ */
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin:20px;
+    padding:20px;
+}
+
+.menu li a {
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    background:#000000;
+    color: white;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.menu li {
+    white-space: nowrap;
+}
